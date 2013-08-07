@@ -9,3 +9,15 @@ Version:        0.1.0
 */
 
 @import url("../twentythirteen/style.css");
+
+/*
+    Infinite Scroll
+*/
+
+#infscr-loading {
+     text-align: center;
+}
+
+#infscr-loading img {
+    display: none;
+}
