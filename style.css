@@ -21,3 +21,16 @@ Version:        0.1.0
 #infscr-loading img {
     display: none;
 }
+
+
+/*
+    Logo
+*/
+
+.site-logo {
+    padding: 40px 0;
+}
+
+.site-logo img {
+    vertical-align:middle;
+}
