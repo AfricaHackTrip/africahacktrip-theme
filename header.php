@@ -27,7 +27,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-	<![endif]-->
+  <![endif]-->
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+  <![endif]-->
   <script src="/wp-content/themes/africahacktrip/js/leaflet-src.js"></script>
   <script src="/wp-content/themes/africahacktrip/js/leaflet.label.js"></script>
   <script src="/wp-content/themes/africahacktrip/js/map.js"></script>
