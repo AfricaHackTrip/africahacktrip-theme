@@ -31,28 +31,34 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="page" class="hfeed site">
-		<header id="masthead" class="site-header" role="banner">
-            
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                <?php if ( get_theme_mod( 'africahacktrip_logo' ) ) : ?>
-                <div class="site-logo">
-                    <img src="<?php echo get_theme_mod( 'africahacktrip_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-                </div>
-                <?php else : ?>
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-                <?php endif; ?>
-			</a>
+  <div id="page" class="hfeed">
+    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+      <div class="container">
+        <nav class="collapse navbar-collapse navbar-responsive-collapse" role="navigtion">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+			      <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+          </div>
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="/kenya">Kenya</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
 
-			<div id="navbar" class="navbar">
-				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
-					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-					<?php get_search_form(); ?>
-				</nav><!-- #site-navigation -->
-			</div><!-- #navbar -->
-		</header><!-- #masthead -->
+            <li></li>
+            <li><a href="/supporters">Supporters</a></li>
+            <li><a href="https://blog.africahacktrip.org">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
 
-		<div id="main" class="site-main">
+    <div id="bigfatmap"></div>
+
+  
+		<div id="main" class="site-main container content">
