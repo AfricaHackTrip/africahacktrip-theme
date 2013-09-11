@@ -48,7 +48,14 @@
   </div>
 </footer>
 
-
+<script type="text/javascript">
+  <?php if(get_post_custom_values("location")) : ?>
+    window.mapCity = '<?php get_post_custom_values("location") ; ?>';
+  <?php endif ?>
+  <?php if(get_post_custom_values("markers")) : ?>
+    window.mapMarkers = '<?php get_post_custom_values("markers") ; ?>';
+  <?php endif ?>
+</script>
 
 
 </body>

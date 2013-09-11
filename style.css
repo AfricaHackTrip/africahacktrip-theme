@@ -123,8 +123,13 @@ a:hover {
   font-size: 16px;
   color: #000; }
 
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav li.active a:hover, .navbar-inverse .navbar-nav li a:hover {
-  background: #bc360a; }
+.navbar-inverse .navbar-nav .current-menu-item a, 
+.navbar-inverse .navbar-nav li.current-menu-item a:hover, 
+.navbar-inverse .navbar-nav .active a, 
+.navbar-inverse .navbar-nav li.active a:hover, 
+.navbar-inverse .navbar-nav li a:hover {
+  background: #bc360a; 
+}
 
 @media (min-width: 800px) {
   .navbar-nav > li > a {
@@ -139,7 +144,7 @@ a:hover {
   display: inline-block;
   width: 254px;
   height: 56px;
-  background: transparent url("/images/africahacktrip-logo-w.png") no-repeat 0 0;
+  background: transparent url("/wp-content/themes/africahacktrip/images/africahacktrip-logo-w.png") no-repeat 0 0;
   background-size: contain;
   text-indent: -1000000px; }
 

@@ -27,6 +27,21 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
+  <script src="/wp-content/themes/themes/map.js"></script>
+<script type="text/javascript">
+    $(function() {
+    Hackmap.initializeMap();
+    if(window.mapCity && window.mapCity != "") {
+      Hackmap.moveToCountry(window.mapCity);
+    }
+    else {
+      Hackmap.moveToOverview();
+    }
+    if(window.mapMarkers && window.mapMarkers != "") {
+      Hackmap.addMarkers(window.mapMarkers);
+    }
+    });
+  </script>
 	<?php wp_head(); ?>
 </head>
 
@@ -41,18 +56,9 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-			      <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">AfricaHackTrip</a>
+            <a class="navbar-brand" style="background: transparent <?php echo get_theme_mod( 'africahacktrip_logo' ); ?> no-repeat;" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">AfricaHackTrip</a>
           </div>
-          <ul class="nav navbar-nav pull-right">
-            <li><a href="/kenya">Kenya</a></li>
-            <li></li>
-            <li></li>
-            <li></li>
-
-            <li></li>
-            <li><a href="/supporters">Supporters</a></li>
-            <li><a href="https://blog.africahacktrip.org">Blog</a></li>
-          </ul>
+          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav navbar-nav pull-right' ) ); ?>
         </nav>
       </div>
     </header>
