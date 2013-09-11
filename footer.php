@@ -12,6 +12,7 @@
 ?>
 
 </div><!-- #main -->
+</div> <!--- #page -->
 
 <footer id="page-footer">
   <div class="container">

@@ -52,7 +52,7 @@
   <div id="page" class="hfeed">
     <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
       <div class="container">
-        <nav class="collapse navbar-collapse navbar-responsive-collapse" role="navigtion">
+        <nav class="collapse navbar-collapse navbar-responsive-collapse" role="navigation">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
               <span class="icon-bar"></span>
