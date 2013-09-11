@@ -110,9 +110,6 @@ window.Hackmap = {
     if(this.options.mobile) { return; }
 
     this.m.setView([-3.50415, 20.679931], 5, {animate: true});
-    $.each(this.countries, function(country, attr) {
-      attr.layer.setStyle({"opacity": 1, "weight": 2, "fillOpacity": 0});
-    });
   },
 
   addCountryLabel: function(cityName) {
