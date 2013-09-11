@@ -28,7 +28,9 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
-  <script src="/wp-content/themes/themes/map.js"></script>
+  <script src="/wp-content/themes/africahacktrip/js/leaflet-src.js"></script>
+  <script src="/wp-content/themes/africahacktrip/js/leaflet.label.js"></script>
+  <script src="/wp-content/themes/africahacktrip/js/map.js"></script>
 <script type="text/javascript">
     $(function() {
     Hackmap.initializeMap();
