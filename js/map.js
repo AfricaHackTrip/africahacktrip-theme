@@ -73,7 +73,7 @@ window.Hackmap = {
     if(this.options.mobile) { return; }
 
     var self = this;
-    L.Icon.Default.imagePath = "/images/leaflet";
+    L.Icon.Default.imagePath = "/wp-content/themes/africahacktrip/images/leaflet";
 
     self.m = L.map('bigfatmap', {
       center: [-2.350415, 35.679931],
