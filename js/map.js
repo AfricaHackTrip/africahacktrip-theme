@@ -82,7 +82,7 @@ window.Hackmap = {
       zoomControl: false,
       tap: true
     });
-    self.m.addControl( L.control.zoom({position: 'bottomleft'}) );
+    self.m.addControl( L.control.zoom({position: 'bottomright'}) );
     self.m.attributionControl.setPrefix('');
 
     L.tileLayer('https://{s}.tiles.mapbox.com/v3/aht.map-bo38swvz/{z}/{x}/{y}.png', {
