@@ -29,9 +29,9 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
   <![endif]-->
 
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+  <link rel="stylesheet" href="/wp-content/themes/africahacktrip/leaflet.css" />
   <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+    <link rel="stylesheet" href="/wp-content/themes/africahacktrip/leaflet.ie.css" />
   <![endif]-->
   <script src="/wp-content/themes/africahacktrip/js/leaflet-src.js"></script>
   <script src="/wp-content/themes/africahacktrip/js/leaflet.label.js"></script>
