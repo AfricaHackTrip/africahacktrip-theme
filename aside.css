@@ -29,14 +29,14 @@ aside {
     padding-left: 70px;
     height: 35px; }
   aside.kenya .flag {
-    background: url(/images/flags/kenya.png) no-repeat;
+    background: url(/wp-content/themes/africahacktrip/images/flags/kenya.png) no-repeat;
     background-size: contain; }
   aside.uganda .flag {
-    background: url(/images/flags/uganda.png) no-repeat;
+    background: url(/wp-content/themes/africahacktrip/images/flags/uganda.png) no-repeat;
     background-size: contain; }
   aside.rwanda .flag {
-    background: url(/images/flags/rwanda.png) no-repeat;
+    background: url(/wp-content/themes/africahacktrip/images/flags/rwanda.png) no-repeat;
     background-size: contain; }
   aside.tanzania .flag {
-    background: url(/images/flags/tanzania.png) no-repeat;
+    background: url(/wp-content/themes/africahacktrip/images/flags/tanzania.png) no-repeat;
     background-size: contain; }
