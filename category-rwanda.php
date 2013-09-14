@@ -62,7 +62,7 @@ get_header(); ?>
     Hackmap.setHeight(200);
     window.setTimeout(function() {
       Hackmap.moveToCity("kigali");
-    }, 500);
+    }, 300);
   });
 </script>
 

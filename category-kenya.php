@@ -25,7 +25,7 @@ get_header(); ?>
     </sction>
 
     <section class="people row">
-
+      <h2>We're looking forward to meeting...</h2>
       <div class="col-md-3">
         <div class="person box">
           <a href=""><img src="http://geekfeminism.org/wp-content/uploads/2013/06/martha.jpg" alt="Martha Chumo"></a>
@@ -111,7 +111,7 @@ get_header(); ?>
     Hackmap.setHeight(200);
     window.setTimeout(function() {
       Hackmap.moveToCity("nairobi");
-    }, 500);
+    }, 300);
   });
 </script>
 
