@@ -41,4 +41,12 @@ get_header(); ?>
 
 <?php endwhile; ?>
 
+<style type="text/css">
+  .leaflet-container {
+    height: 400px;
+  }
+</style>
+<script type="text/javascript">
+  $(function() { Hackmap.moveToOverview() });
+</script>
 <?php get_footer(); ?>
