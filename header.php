@@ -42,9 +42,6 @@
     if(window.mapCity && window.mapCity != "") {
       Hackmap.moveToCountry(window.mapCity);
     }
-    else {
-      Hackmap.moveToOverview();
-    }
     if(window.mapMarkers && window.mapMarkers != "") {
       Hackmap.addMarkers(window.mapMarkers);
     }
