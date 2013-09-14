@@ -31,7 +31,7 @@ function create_post_types() {
                             ),
           'public' => true,
           'taxonomies' => array("category"),
-          'supports' => array('thumbnail', 'excerpt', 'custom-fields'),
+          'supports' => array('thumbnail', 'excerpt', 'title', 'editor', 'custom-fields'),
           'exclude_from_search' => true,
           'rewrite' => array('slug' => 'people'),
     )
