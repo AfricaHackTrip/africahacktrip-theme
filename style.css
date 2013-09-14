@@ -180,10 +180,10 @@ footer#page-footer {
     height: 40px;
     max-width: 200px; }
     footer#page-footer .sponsor-logos a.github {
-      background: url("/images/supporters/github-white.png") no-repeat;
+      background: url("/wp-content/themes/africahacktrip/images/supporters/github-white.png") no-repeat;
       background-size: contain; }
     footer#page-footer .sponsor-logos a.geeksphone {
-      background: url("/images/supporters/geeksphone-white.png") no-repeat;
+      background: url("wp-content/themes/africahacktrip/images/supporters/geeksphone-white.png") no-repeat;
       background-size: contain; }
 
 #bigfatmap {
