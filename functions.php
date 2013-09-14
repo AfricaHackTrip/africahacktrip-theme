@@ -21,6 +21,34 @@ function africahacktrip_customize_register($wp_customize){
  
 add_action('customize_register', 'africahacktrip_customize_register');
 
+
+function create_post_types() {
+  register_post_type( 'person',
+    array(
+          'labels' => array(
+                            'name' => __( 'People' ),
+                            'singular_name' => __( 'Person' )
+                            ),
+          'public' => true,
+          'exclude_from_search' => true,
+          'rewrite' => array('slug' => 'people'),
+    )
+  );
+  register_post_type( 'grid',
+    array(
+          'labels' => array(
+                            'name' => __( 'Grid' ),
+                            'singular_name' => __( 'Grid' )
+                            ),
+          'public' => true,
+          'exclude_from_search' => true,
+          'rewrite' => array('slug' => 'people'),
+    )
+  );
+}
+add_action( 'init', 'create_post_types' );
+  
+  
 /**
  *
  * Overwritten to remove the tags
