@@ -126,5 +126,6 @@ window.Hackmap = {
     if(this.options.mobile) { return; }
 
     $('#bigfatmap').animate({height: value});
+    $('.leaflet-container').animate({height: value});
   },
 };

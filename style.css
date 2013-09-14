@@ -40,6 +40,9 @@ Version:        0.1.0
 .hentry {
   padding: 20px 0px;
 }
+.site-main {
+  position: static;
+}
 
 .format-quote, .format-link {
   background: none;
@@ -47,6 +50,11 @@ Version:        0.1.0
 .paging-navigation {
   background: none;
 }
+
+.home-title {
+  color: #000;
+}
+
 /* old theme...................................................... */
 
 iframe {
@@ -183,7 +191,7 @@ footer#page-footer {
       background: url("/wp-content/themes/africahacktrip/images/supporters/github-white.png") no-repeat;
       background-size: contain; }
     footer#page-footer .sponsor-logos a.geeksphone {
-      background: url("wp-content/themes/africahacktrip/images/supporters/geeksphone-white.png") no-repeat;
+      background: url("/wp-content/themes/africahacktrip/images/supporters/geeksphone-white.png") no-repeat;
       background-size: contain; }
 
 #bigfatmap {
@@ -195,7 +203,7 @@ footer#page-footer {
   background-color: #fbf8ef; }
 
 .leaflet-label {
-  background: #00FF00;
+  background: #db572f;
   background-clip: padding-box;
   color: #000;
   display: block;
@@ -293,7 +301,7 @@ main .lanyrd-schedule-embed span.opener {
   padding: 30px; }
 
 h1#tagline {
-  font-size: 26px;
+  font-size: 23px;
   line-height: 1.5;
   font-weight: bold;
   color: #000; }

@@ -13,44 +13,32 @@
 
 get_header(); ?>
 
-  <div id="intro">
-    <h1 id="tagline">We are a group of developers & designers from Europe, curious about the emerging African tech hubs</h1>
-    <p>
-      We decided to explore the African tech community ourselves and share our impressions on the web and with a video documentary.
-The journey begins in September 2013
-    </p>
+
+<div id="intro">
+  <h1 id="tagline">
+    We are a group of developers & designers from Europe, curious about the emerging African tech hubs.
+  </h1>
+  <p>
+    We decided to explore the African tech community ourselves and share our impressions on the web and with a video documentary.<br />
+  </p>
+  <p>
+    The journey begins in September 2013.
+  </p>
+</div>
+
+<?php /* The loop */ ?>
+<?php while ( have_posts() ) : the_post(); ?>
+
+<div id="teaser">
+  <h1 class="home-title"><?php the_title(); ?></h1>
+  <div class="teaser-video">
+    <iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/w-QbKIctz60" frameborder="0" allowfullscreen></iframe>
   </div>
+  <div class="">
+    <?php the_content(); ?>
+  </div>
+</div>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-			<?php /* The loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<header class="entry-header">
-						<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-						<div class="entry-thumbnail">
-							<?php the_post_thumbnail(); ?>
-						</div>
-						<?php endif; ?>
-
-						<h1 class="entry-title"><?php the_title(); ?></h1>
-					</header><!-- .entry-header -->
-
-					<div class="entry-content">
-						<?php the_content(); ?>
-						<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
-					</div><!-- .entry-content -->
-
-					<footer class="entry-meta">
-						<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
-					</footer><!-- .entry-meta -->
-				</article><!-- #post -->
-
-			<?php endwhile; ?>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
+<?php endwhile; ?>
 
 <?php get_footer(); ?>
