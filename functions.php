@@ -30,6 +30,8 @@ function create_post_types() {
                             'singular_name' => __( 'Person' )
                             ),
           'public' => true,
+          'taxonomies' => array("category"),
+          'supports' => array('thumbnail', 'excerpt', 'custom-fields'),
           'exclude_from_search' => true,
           'rewrite' => array('slug' => 'people'),
     )
