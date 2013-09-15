@@ -109,8 +109,7 @@ h1 {
   border-bottom: 1px solid #d1d1d1; }
 
 h2 {
-  color: #db572f;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: normal;
   margin: 0 0 20px 0;
   padding: 5px 0 5px 0;
@@ -390,6 +389,9 @@ h1#tagline {
   .event h4, .event h4 a {
     color: #323232; }
 
+.people {
+  margin-top: 20px;
+}
 .person {
   width: 200px;
   float: left;
