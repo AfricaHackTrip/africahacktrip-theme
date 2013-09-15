@@ -20,7 +20,10 @@ get_header(); ?>
   </h1>
   <p>
     We decided to explore the African tech community ourselves and share our impressions on the web and with a video documentary.<br />
-  </p>
+	</p>
+	<p>
+		We want to get everyone in the international tech scene as excited about African hackers as we are.
+	</p>
   <p>
     The journey begins in September 2013.
   </p>
