@@ -36,6 +36,19 @@ function create_post_types() {
           'rewrite' => array('slug' => 'people'),
     )
   );
+  register_post_type( 'space',
+    array(
+          'labels' => array(
+                            'name' => __( 'Space' ),
+                            'singular_name' => __( 'Spaces' )
+                            ),
+          'public' => true,
+          'taxonomies' => array("category"),
+          'supports' => array('thumbnail', 'excerpt', 'title', 'editor', 'custom-fields'),
+          'exclude_from_search' => true,
+          'rewrite' => array('slug' => 'spaces'),
+    )
+  );
   register_post_type( 'grid',
     array(
           'labels' => array(
