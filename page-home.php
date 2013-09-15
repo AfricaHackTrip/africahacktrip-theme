@@ -23,8 +23,6 @@ get_header(); ?>
 	</p>
 	<p>
 		We want to get everyone in the international tech scene as excited about African hackers as we are.
-	</p>
-  <p>
     The journey begins in September 2013.
   </p>
 </div>
