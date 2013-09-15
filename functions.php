@@ -52,8 +52,8 @@ function create_post_types() {
   register_post_type( 'tile',
     array(
           'labels' => array(
-                            'name' => __( 'Tile' ),
-                            'singular_name' => __( 'Tiles' )
+                            'name' =>  'Tile',
+                            'singular_name' => 'Tiles'
                             ),
           'public' => true,
           'exclude_from_search' => true,
