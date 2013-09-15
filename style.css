@@ -374,7 +374,9 @@ h1#tagline {
   .person img {
     width: 157px;
     height: 157px; }
-
+  .person p {
+    margin: 0;
+  }
 .frontpage-grid {
   clear: both; }
 

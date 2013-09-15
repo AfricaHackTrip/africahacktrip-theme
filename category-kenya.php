@@ -44,47 +44,6 @@ get_header(); ?>
  
     <?php endwhile; ?>
 
-      <div class="col-md-3">
-        <div class="person box">
-          <a href=""><img src="http://geekfeminism.org/wp-content/uploads/2013/06/martha.jpg" alt="Martha Chumo"></a>
-          <strong class="person-name"><a href="">Martha Chumo</a></strong>
-          Founder of Nairobi Dev School
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="person box">
-          <a href=""><img src="http://re-publica.de/sites/re-publica.de/files/imagecache/user_image_large/pictures/picture-1762.jpg" alt="Will Mutua"></a>
-          <strong class="person-name"><a href="">Will Mutua</a></strong>
-          Author of "Innovative Africa"
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="person box">
-          <a href=""><img src="http://inschrijven.nabc.nl/portals/1/images/Event03112010/Bob_van_der_Bijl.jpg" alt="Jasper Grosskurth"></a>
-          <strong class="person-name"><a href="">Jasper Grosskurth</a></strong>
-          Author of "Futures of Technology in Africa"
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="person box">
-          <a href=""><img src="https://vc4africa.biz/wp-content/uploads/avatars/76/63acd8eaad4c99cadaf912341b057fe3-bpfull.jpg" alt=""></a>
-          <strong class="person-name"><a href="">Simeon Oriko</a></strong>
-          We can't wait to meet the members of JamLab
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="person box">
-          <a href=""><img src="http://farm9.staticflickr.com/8057/8182371175_6cd5e157cd.jpg" alt="">Kepha Ngito</a>
-          <strong class="person-name"><a href=""></a></strong>
-          Manages MapKibera.org
-        </div>
-      </div>
-
-
     </section>
 
 
