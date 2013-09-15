@@ -26,6 +26,24 @@ get_header(); ?>
 
     <section class="people row">
       <h2>We're looking forward to meeting...</h2>
+
+    <?php
+      $args = array('category_name' => 'kenya', 'post_type' => 'person', 'posts_per_page' => 20 );
+      $loop = new WP_Query( $args );
+      while ( $loop->have_posts() ) : $loop->the_post();
+    ?>    
+        <div class="col-md-3">
+          <div class="person box">
+            <a href="<?php echo get_post_custom_values("url")[0] ?>"
+              <img src="<?php echo get_custom_values("image")[0] ?>">
+            </a>
+            <strong class="person-name"><a href="<?php echo get_post_custom_values("url")[0] ?>"><?php the_title(); ?></a></strong>
+            <?php the_excerpt() ?>
+          </div>
+        </div>
+ 
+    <?php endwhile; ?>
+
       <div class="col-md-3">
         <div class="person box">
           <a href=""><img src="http://geekfeminism.org/wp-content/uploads/2013/06/martha.jpg" alt="Martha Chumo"></a>

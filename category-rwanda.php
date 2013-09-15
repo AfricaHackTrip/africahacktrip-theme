@@ -25,7 +25,24 @@ get_header(); ?>
     </sction>
 
     <section class="people">
+      <h2>We're looking forward to meeting...</h2>
 
+    <?php
+      $args = array('category_name' => 'rwanda', 'post_type' => 'person', 'posts_per_page' => 20 );
+      $loop = new WP_Query( $args );
+      while ( $loop->have_posts() ) : $loop->the_post();
+    ?>    
+        <div class="col-md-3">
+          <div class="person box">
+            <a href="<?php echo get_post_custom_values("url")[0] ?>"
+              <img src="<?php echo get_custom_values("image")[0] ?>">
+            </a>
+            <strong class="person-name"><a href="<?php echo get_post_custom_values("url")[0] ?>"><?php the_title(); ?></a></strong>
+            <?php the_excerpt() ?>
+          </div>
+        </div>
+ 
+    <?php endwhile; ?>
     </section>
 
 
