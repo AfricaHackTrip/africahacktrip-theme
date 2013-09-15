@@ -399,6 +399,7 @@ h1#tagline {
     width: 157px;
     height: 157px; }
   .person p {
+    line-height: 1.2em;
     margin: 0;
   }
 .grid {
