@@ -25,7 +25,7 @@ get_header(); ?>
     </sction>
 
     <section class="people">
-      <h2>We're looking forward to meeting...</h2>
+      <h2>We're looking forward to meet...</h2>
 
     <?php
       $args = array('category_name' => 'kenya', 'post_type' => 'person', 'posts_per_page' => 20 );
