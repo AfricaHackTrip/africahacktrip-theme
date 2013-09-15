@@ -49,15 +49,15 @@ function create_post_types() {
           'rewrite' => array('slug' => 'spaces'),
     )
   );
-  register_post_type( 'grid',
+  register_post_type( 'tile',
     array(
           'labels' => array(
-                            'name' => __( 'Grid' ),
-                            'singular_name' => __( 'Grid' )
+                            'name' => __( 'Tile' ),
+                            'singular_name' => __( 'Tiles' )
                             ),
           'public' => true,
           'exclude_from_search' => true,
-          'rewrite' => array('slug' => 'people'),
+          'rewrite' => array('slug' => 'tiles'),
     )
   );
 }
