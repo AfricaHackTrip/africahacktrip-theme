@@ -24,7 +24,7 @@ get_header(); ?>
       </script>
     </sction>
 
-    <section class="people row">
+    <section class="people">
       <h2>We're looking forward to meeting...</h2>
 
     <?php
@@ -67,7 +67,11 @@ get_header(); ?>
   </aside>
 </div>
 
-	<div id="primary" class="content-area">
+<div class="row">
+  <main class="col-md-9">
+  
+
+  <div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -82,6 +86,10 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
+  
+  </main>
+</div>
+
 
 <script type="text/javascript">
   $(function() {
