@@ -61,7 +61,7 @@ Version:        0.1.0
 .entry-title {
   color: #323232;
 }
-.entry-title a { 
+.entry-title a, .entry-title a:link, .entry-title a:visited { 
   color: #323232;
 }
 .home-title {

@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<div class="row">
+<main class="col-md-9">
+
+
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 		<?php if ( have_posts() ) : ?>
@@ -22,6 +26,9 @@
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
+
+</main>
+</div>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
