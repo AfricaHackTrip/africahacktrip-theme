@@ -49,8 +49,12 @@ function create_post_types() {
   );
 }
 add_action( 'init', 'create_post_types' );
-  
-  
+
+function add_people_thumbnail_size() {
+  add_image_size('person_thumbnail', 157, 157, true);
+}
+add_action('init', 'add_people_thumbnail_size');
+
 /**
  *
  * Overwritten to remove the tags
