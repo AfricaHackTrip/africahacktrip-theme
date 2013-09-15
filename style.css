@@ -64,6 +64,10 @@ Version:        0.1.0
 .entry-title a, .entry-title a:link, .entry-title a:visited { 
   color: #323232;
 }
+.entry-content {
+  font-size: 18px;
+}
+
 .home-title {
   color: #000;
   font-size: 22px;
