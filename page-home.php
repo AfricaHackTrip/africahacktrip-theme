@@ -41,7 +41,7 @@ get_header(); ?>
 
 <?php endwhile; ?>
 
-
+<div class="grid row">
 
 <?php
   $args = array('post_type' => 'tile', 'posts_per_page' => 30 );
@@ -57,6 +57,8 @@ get_header(); ?>
 </div>
 <?php endwhile; ?>
 
+
+</div>
 
 
 

@@ -40,7 +40,7 @@
       </div>
       <div class="col-md-3">
         <h3>Media Partners</h3>
-        <h4><a href="http://www.eufrika.org/">Eufrika.org</a></h4>
+        <h4><strong><a href="http://www.eufrika.org/">Eufrika.org</a></strong></h4>
         <p>
           Eufrika is a blog focusing on independent news for an African-European public.
         </p>

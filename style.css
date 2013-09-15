@@ -53,6 +53,8 @@ Version:        0.1.0
 
 .home-title {
   color: #000;
+  font-size: 22px;
+  margin-bottom: 30px;
 }
 
 /* old theme...................................................... */
@@ -158,7 +160,6 @@ a:hover {
   text-indent: -1000000px; }
 
 footer#page-footer {
-  border-top: 4px solid #db572f;
   margin-bottom: 0;
   border-radius: 0;
   background: #383838;
@@ -169,9 +170,10 @@ footer#page-footer {
   footer#page-footer a, footer#page-footer a:link, footer#page-footer a:visited {
     color: #969696; }
   footer#page-footer h3 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: normal;
     padding: 40px 0 5px 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     color: #db572f; }
   footer#page-footer p, footer#page-footer li {
     line-height: 1.6em; }
@@ -298,7 +300,7 @@ main .lanyrd-schedule-embed span.opener {
   position: absolute;
   top: 140px;
   width: 50%;
-  padding: 30px; }
+  padding: 0px; }
 
 h1#tagline {
   font-size: 23px;
@@ -366,6 +368,7 @@ h1#tagline {
     color: #323232; }
 
 .person {
+  line-height: 1.2em;
   text-align: center;
   overflow: hidden; }
   .person .person-name {
@@ -377,8 +380,10 @@ h1#tagline {
   .person p {
     margin: 0;
   }
-.frontpage-grid {
-  clear: both; }
+.grid {
+  clear: both;
+  margin-top: 25px;
+}
 
 .tile {
   margin: 10px 10px 0px 0px;
