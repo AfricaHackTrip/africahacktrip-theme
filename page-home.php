@@ -41,6 +41,26 @@ get_header(); ?>
 
 <?php endwhile; ?>
 
+
+
+<?php
+  $args = array('post_type' => 'tile', 'posts_per_page' => 30 );
+  $loop = new WP_Query( $args );
+  while ( $loop->have_posts() ) : $loop->the_post();
+  ?>
+<div class="tile tile-<?php echo get_post_custom_values("tile_size")[0] ?>">
+  <?php the_content() ?>
+  <div class="caption">
+    <h3><a href="<?php echo get_post_custom_values("url")[0] ?>"><?php the_title(); ?></a></h3>
+    <?php the_excerpt() ?>
+  </div>
+</div>
+<?php endwhile; ?>
+
+
+
+
+
 <style type="text/css">
   .leaflet-container {
     height: 400px;
