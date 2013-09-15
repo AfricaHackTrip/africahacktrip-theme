@@ -33,8 +33,8 @@ get_header(); ?>
     ?>    
         <div class="col-md-3">
           <div class="person box">
-            <a href="<?php echo get_post_custom_values("url")[0] ?>"
-              <img src="<?php echo get_custom_values("image")[0] ?>">
+            <a href="<?php echo get_post_custom_values("url")[0] ?>">
+              <?php if ( has_post_thumbnail()) { the_post_thumbnail( 'person_thumbnail', array( 'class' => '' ) );  } ?>        
             </a>
             <strong class="person-name"><a href="<?php echo get_post_custom_values("url")[0] ?>"><?php the_title(); ?></a></strong>
             <?php the_excerpt() ?>
