@@ -56,6 +56,7 @@ function create_post_types() {
                             'singular_name' => 'Tiles'
                             ),
           'public' => true,
+          'supports' => array('thumbnail', 'excerpt', 'title', 'editor', 'custom-fields'),
           'exclude_from_search' => true,
           'rewrite' => array('slug' => 'tiles'),
     )
