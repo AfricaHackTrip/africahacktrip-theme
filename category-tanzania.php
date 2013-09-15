@@ -31,7 +31,7 @@ get_header(); ?>
       $loop = new WP_Query( $args );
       while ( $loop->have_posts() ) : $loop->the_post();
     ?>    
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="person box">
             <a href="<?php echo get_post_custom_values("url")[0] ?>">
               <?php if ( has_post_thumbnail()) { the_post_thumbnail( 'person_thumbnail', array( 'class' => '' ) );  } ?>        
