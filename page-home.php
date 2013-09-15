@@ -31,10 +31,10 @@ get_header(); ?>
 
 <div id="teaser">
   <h1 class="home-title"><?php the_title(); ?></h1>
-  <div class="teaser-video">
-    <iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/w-QbKIctz60" frameborder="0" allowfullscreen></iframe>
+	<div class="teaser-video">
+		<iframe width="460" height="259" src="//www.youtube.com/embed/w-QbKIctz60" frameborder="0" allowfullscreen></iframe>
   </div>
-  <div class="">
+  <div class="teaser-content">
     <?php the_content(); ?>
   </div>
 </div>
