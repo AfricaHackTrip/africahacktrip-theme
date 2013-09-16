@@ -11,6 +11,7 @@ Version:        0.1.0
 @import url("../twentythirteen/style.css");
 @import url("./bootstrap.min.css");
 @import url("./aside.css");
+@import url("./about_us.css");
 
 /*
     Infinite Scroll
@@ -418,7 +419,7 @@ h1#tagline {
 .tile {
   margin: 10px 10px 0px 0px;
   background-color: #f8f6f1;
-  border: 1px solid #d1d1d1;
+  border: none;
   position: relative;
   overflow: hidden;
   padding: 0;
