@@ -421,6 +421,7 @@ h1#tagline {
   border: 1px solid #d1d1d1;
   position: relative;
   overflow: hidden;
+  padding: 0;
   float: left; }
   .tile img {
     width: 100%; }
@@ -429,35 +430,24 @@ h1#tagline {
     margin-top: 0px; }
 
 .tile-1 {
-  width: 135px; }
+  width: 228px; }
   .tile-1 img {
-    width: 103px;
-    height: 103px; }
+    width: 228px;
+    }
 
 .tile-2 {
-  width: 280px; }
+  width: 471px; }
   .tile-2 img {
-    height: 248px; }
+    width: 471px ; }
 
 .tile-3 {
-  width: 425px; }
+  width: 714px; }
   .tile-3 img {
-    height: 393px; }
+    height: 714px; }
 
 .tile-4 {
-  width: 570px; }
+  width: 957px; }
 
-.tile-5 {
-  width: 715px; }
-
-.tile-6 {
-  width: 860px; }
-
-.tile-7 {
-  width: 1005px; }
-
-.tile-8 {
-  width: 1150px; }
 
 .caption:nth-child(2n) {
   margin-right: 0; }
