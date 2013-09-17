@@ -138,11 +138,37 @@ a:hover {
   max-width: 960px;
 }
 
+
+.navbar-inverse .navbar-nav .current-menu-item a, 
+.navbar-inverse .navbar-nav li.current-menu-item a:hover, 
+.navbar-inverse .navbar-nav .active a, 
+.navbar-inverse .navbar-nav li.active a:hover, 
+.navbar-inverse .navbar-nav li a:hover {
+
+}
+/* kenya */
+#menu-item-108.current-menu-item a, #menu-item-108 a:hover {
+  background-color: #f06361;
+}
+
+/* uganda */
+#menu-item-111.current-menu-item a, #menu-item-111 a:hover {
+  background-color: #f06361;
+}
+/* rwanda */
+#menu-item-109.current-menu-item a, #menu-item-109 a:hover {
+  background-color: #f06361;
+}
+/* tanzania */
+#menu-item-109.current-menu-item a, #menu-item-109 a:hover {
+  background-color: #f06361;
+}
+
 .navbar {
   border: none;
   margin-bottom: 0;
   border-radius: 0;
-  background: #db572f;
+  background: #323232;
   min-height: 50px; }
   .navbar a {
     color: #000; }
@@ -153,15 +179,8 @@ a:hover {
 
 .navbar-inverse .navbar-nav li a {
   font-size: 16px;
-  color: #000; }
+  color: #fff; }
 
-.navbar-inverse .navbar-nav .current-menu-item a, 
-.navbar-inverse .navbar-nav li.current-menu-item a:hover, 
-.navbar-inverse .navbar-nav .active a, 
-.navbar-inverse .navbar-nav li.active a:hover, 
-.navbar-inverse .navbar-nav li a:hover {
-  background: #bc360a; 
-}
 
 @media (min-width: 800px) {
   .navbar-nav > li > a {
@@ -169,7 +188,7 @@ a:hover {
 @media (max-width: 800px) {
   .navbar-nav > li > a {
     padding: 8px 10px;
-    border-bottom: 1px solid #333333; } }
+    }
 .navbar-brand {
   padding: 0;
   margin: 5px 25px 0 10px;
