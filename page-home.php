@@ -42,7 +42,8 @@ get_header(); ?>
 
 <?php endwhile; ?>
 
-<div class="grid row">
+<div class="grid">
+  <h1 class="home-title">Get excited...</h1>
 
 <?php
   $args = array('post_type' => 'tile', 'posts_per_page' => 30 );

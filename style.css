@@ -194,7 +194,7 @@ a:hover {
   display: inline-block;
   width: 254px;
   height: 56px;
-  background: transparent url("/wp-content/themes/africahacktrip/images/africahacktrip-logo-w.png") no-repeat center;
+  background: transparent url("/wp-content/themes/africahacktrip/images/africahacktrip-logo-w.png") no-repeat left center;
   text-indent: -1000000px; }
 
 footer#page-footer {
@@ -434,7 +434,7 @@ h1#tagline {
 }
 
 .tile {
-  margin: 10px 10px 0px 0px;
+  margin: 10px 22px 0px 0px;
   background-color: #f8f6f1;
   border: none;
   position: relative;
@@ -448,23 +448,23 @@ h1#tagline {
     margin-top: 0px; }
 
 .tile-1 {
-  width: 228px; }
+  width: 216px; }
   .tile-1 img {
-    width: 228px;
+    width: 216px;
     }
 
 .tile-2 {
-  width: 471px; }
+  width: 454px; }
   .tile-2 img {
-    width: 471px ; }
+    width: 454px ; }
 
 .tile-3 {
-  width: 714px; }
+  width: 692px; }
   .tile-3 img {
-    height: 714px; }
+    height: 692px; }
 
 .tile-4 {
-  width: 957px; }
+  width: 930px; }
 
 
 .caption:nth-child(2n) {
