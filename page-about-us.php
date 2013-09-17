@@ -13,7 +13,15 @@
 
 get_header(); ?>
 
-
+<script type="text/javascript">
+  $(function() {
+    $("#The_team .toggle").on("click", function(e) {
+      e.preventDefault();
+      $("#The_team article").removeClass("more");
+      $(this).closest("article").addClass("more");
+    });
+  });
+</script>
 
 <section id="We_do">
 <h2>What we do</h2>
