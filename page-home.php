@@ -42,9 +42,8 @@ get_header(); ?>
 
 <?php endwhile; ?>
 
+<h1 class="home-title">Get excited...</h1>
 <div class="grid">
-  <h1 class="home-title">Get excited...</h1>
-
 <?php
   $args = array('post_type' => 'tile', 'posts_per_page' => 30 );
   $loop = new WP_Query( $args );

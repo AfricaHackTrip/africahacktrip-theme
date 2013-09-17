@@ -431,6 +431,7 @@ h1#tagline {
 .grid {
   clear: both;
   margin-top: 25px;
+  width: 952px;
 }
 
 .tile {
