@@ -194,8 +194,7 @@ a:hover {
   display: inline-block;
   width: 254px;
   height: 56px;
-  background: transparent url("/wp-content/themes/africahacktrip/images/africahacktrip-logo-w.png") no-repeat 0 0;
-  background-size: contain;
+  background: transparent url("/wp-content/themes/africahacktrip/images/africahacktrip-logo-w.png") no-repeat center;
   text-indent: -1000000px; }
 
 footer#page-footer {
