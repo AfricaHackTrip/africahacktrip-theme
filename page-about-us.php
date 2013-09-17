@@ -253,7 +253,7 @@ from coding to design. We organize women-friendly workshops, meetings, presentat
 
 <article id="twestival">
 <header>
-<a href="http://http://twestival.com//"><img src="/wp-content/themes/africahacktrip/images/logos/twestival.png" width="80" height="80" alt="" /></a>
+<a href="http://twestival.com//"><img src="/wp-content/themes/africahacktrip/images/logos/twestival.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://twestival.com//">Twestival</a>
 </h3>
