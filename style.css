@@ -102,7 +102,7 @@ a, a:hover {
   text-decoration: none; }
 
 h1 {
-  color: #db572f;
+  color: #f06361;
   font-size: 30px;
   font-weight: normal;
   margin: 0 0 10px 0;
@@ -123,10 +123,10 @@ h3 {
   margin: 0px; }
 
 a, a:link, a:visited {
-  color: #db572f; }
+  color: #f06361; }
 
 a:hover {
-  color: #db572f;
+  color: #f06361;
   cursor: pointer; }
 
 .container-full {
@@ -153,15 +153,15 @@ a:hover {
 
 /* uganda */
 #menu-item-111.current-menu-item a, #menu-item-111 a:hover {
-  background-color: #f06361;
+  background-color: #e9c04b;
 }
 /* rwanda */
 #menu-item-109.current-menu-item a, #menu-item-109 a:hover {
-  background-color: #f06361;
+  background-color: #f18afcc;
 }
 /* tanzania */
 #menu-item-109.current-menu-item a, #menu-item-109 a:hover {
-  background-color: #f06361;
+  background-color: #54bc83;
 }
 
 .navbar {
@@ -170,8 +170,6 @@ a:hover {
   border-radius: 0;
   background: #323232;
   min-height: 50px; }
-  .navbar a {
-    color: #000; }
   .navbar li a:hover {
     cursor: pointer; }
   .navbar .container {
@@ -179,7 +177,7 @@ a:hover {
 
 .navbar-inverse .navbar-nav li a {
   font-size: 16px;
-  color: #fff; }
+  color: #f1f1f1; }
 
 
 @media (min-width: 800px) {
@@ -215,7 +213,7 @@ footer#page-footer {
     font-weight: normal;
     padding: 40px 0 5px 0;
     margin: 0 0 10px 0;
-    color: #db572f; }
+    color: #f06361; }
   footer#page-footer p, footer#page-footer li {
     line-height: 1.6em; }
   footer#page-footer ul {
@@ -246,7 +244,7 @@ footer#page-footer {
   background-color: #fbf8ef; }
 
 .leaflet-label {
-  background: #db572f;
+  background: #f06361;
   background-clip: padding-box;
   color: #000;
   display: block;
@@ -316,7 +314,7 @@ main .lanyrd-schedule-embed ol {
   list-style: none;
   padding: 0; }
 main .lanyrd-schedule-embed a {
-  color: #db572f; }
+  color: #f06361; }
 main .lanyrd-schedule-embed span.opener {
   font-size: 14px;
   float: right; }
