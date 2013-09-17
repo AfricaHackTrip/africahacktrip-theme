@@ -50,7 +50,7 @@ get_header(); ?>
   while ( $loop->have_posts() ) : $loop->the_post();
   ?>
 <div class="tile tile-<?php echo get_post_custom_values("tile_size")[0] ?>">
-	<?php if(get_the_excerpt() != ""): ?>
+	<?php if(get_post_custom_values("plaintext")[0] != "1"): ?>
 		<?php the_content() ?>
 		<div class="caption">
 			<h3><a href="<?php echo get_post_custom_values("url")[0] ?>"><?php the_title(); ?></a></h3>
@@ -58,7 +58,7 @@ get_header(); ?>
 		</div>
 	<?php else: ?>
 		<h3><a href="<?php echo get_post_custom_values("url")[0] ?>"><?php the_title(); ?></a></h3>
-		<?php the_excerpt() ?>
+		<?php the_content() ?>
 	<?php endif; ?>
 </div>
 <?php endwhile; ?>
