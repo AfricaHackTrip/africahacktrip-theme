@@ -19,6 +19,9 @@ get_header(); ?>
       e.preventDefault();
       $("#The_team article").removeClass("more");
       $(this).closest("article").addClass("more");
+      $('html, body').animate({
+        scrollTop: $(this).closest("article").offset().top - 50
+      }, 300);
     });
   });
 </script>
