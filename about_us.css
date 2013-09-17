@@ -1,3 +1,7 @@
+#The_team h1, #The_team h2, #The_team h3, #The_team h4, #We_do h1, #We_do h2, #We_do h3, #We_do h4 {
+  clear: none;
+}
+
 #The_team article,
 #We_do article {
   padding: 20px 0; }

@@ -15,7 +15,7 @@ get_header(); ?>
 
 
 
-<section id="We_do" class="box">
+<section id="We_do">
 <h2>What we do</h2>
 <p>
 We love building things and supporting meaningful initiatives. Here are
@@ -25,7 +25,7 @@ some projects we are involved in:
 <article id="5apps">
 <header>
 <a href="https://5apps.com/">
-<img src="/images/logos/5apps.png" width="80" height="80" alt="" />
+<img src="/wp-content/themes/africahacktrip/images/logos/5apps.png" width="80" height="80" alt="" />
 </a>
 <h3>
 <a href="https://5apps.com/">5apps</a>
@@ -40,7 +40,7 @@ software platform.
 <article id="co-up">
 <header>
 <a href="http://co-up.de/">
-<img src="/images/logos/co-up.png" width="80" height="80" alt="" />
+<img src="/wp-content/themes/africahacktrip/images/logos/co-up.png" width="80" height="80" alt="" />
 </a>
 <h3>
 <a href="http://co-up.de/">co.up</a>
@@ -55,7 +55,7 @@ A Berlin coworking space providing desks, wi-fi and a friendly atmosphere for in
 <article id="cobot">
 <header>
 <a href="http://cobot.me/">
-<img src="/images/logos/cobot.png" width="80" height="80" alt="" />
+<img src="/wp-content/themes/africahacktrip/images/logos/cobot.png" width="80" height="80" alt="" />
 </a>
 <h3>
 <a href="http://cobot.me/">Cobot</a>
@@ -69,7 +69,7 @@ Cobot is the leading management software for coworking. Coworking spaces around 
 
 <article id="cowoco">
 <header>
-<a href="http://coworking-cologne.de/"><img src="/images/logos/cowoco.png" width="80" height="80" alt="" /></a>
+<a href="http://coworking-cologne.de/"><img src="/wp-content/themes/africahacktrip/images/logos/cowoco.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://coworking-cologne.de/">Coworking Cologne</a>
 </h3>
@@ -81,7 +81,7 @@ The Cologne coworking network that also operates a community space for coworking
 
 <article id="coworkingde">
 <header>
-<a href="http://coworking.de/"><img src="/images/logos/coworkingde.png" width="80" height="80" alt="" /></a>
+<a href="http://coworking.de/"><img src="/wp-content/themes/africahacktrip/images/logos/coworkingde.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://coworking.de/">Coworking.de</a>
 </h3>
@@ -93,7 +93,7 @@ German coworking directory.
 
 <article id="litewrite">
 <header>
-<a href="http://litewrite.net"><img src="/images/logos/litewrite.png" width="80" height="80" alt="" /></a>
+<a href="http://litewrite.net"><img src="/wp-content/themes/africahacktrip/images/logos/litewrite.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://litewrite.net">Litewrite</a>
 </h3>
@@ -105,7 +105,7 @@ Distraction-free writing. Works offline and can sync with your remoteStorage.
 
 <article id="halvtone">
 <header>
-<a href="https://halvtone.com/"><img src="/images/logos/halvtone.png" width="80" height="80" alt="" /></a>
+<a href="https://halvtone.com/"><img src="/wp-content/themes/africahacktrip/images/logos/halvtone.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="https://halvtone.com/">Halvtone</a>
 </h3>
@@ -117,7 +117,7 @@ A startup that lets you transform your photos into wooden art.
 
 <article id="minutes-io">
 <header>
-<a href="http://minutes.io/"><img src="/images/logos/minutes.io.png" width="80" height="80" alt="" /></a>
+<a href="http://minutes.io/"><img src="/wp-content/themes/africahacktrip/images/logos/minutes.io.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://minutes.io/">minutes.io</a>
 </h3>
@@ -129,7 +129,7 @@ The simplest meeting tool since pen &amp; paper.
 
 <article id="opentechschool">
 <header>
-<a href="http://opentechschool.org/"><img src="/images/logos/opentechschool.png" width="80" height="80" alt="" /></a>
+<a href="http://opentechschool.org/"><img src="/wp-content/themes/africahacktrip/images/logos/opentechschool.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://opentechschool.org/">OpenTechSchool</a>
 </h3>
@@ -142,7 +142,7 @@ to technology enthusiasts of all genders, backgrounds, and experience levels.
 
 <article id="owncloud">
 <header>
-<a href="http://owncloud.org/"><img src="/images/logos/owncloud.png" width="80" height="80" alt="" /></a>
+<a href="http://owncloud.org/"><img src="/wp-content/themes/africahacktrip/images/logos/owncloud.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://owncloud.org/">ownCloud</a>
 </h3>
@@ -154,7 +154,7 @@ ownCloud enables you to sync and share your stuff. It’s a web platform with de
 
 <article id="railsgirls">
 <header>
-<a href="http://railsgirls.com/"><img src="/images/logos/railsgirls.png" width="80" height="80" alt="" /></a>
+<a href="http://railsgirls.com/"><img src="/wp-content/themes/africahacktrip/images/logos/railsgirls.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://railsgirls.com/">Railsgirls</a>
 </h3>
@@ -167,7 +167,7 @@ in several events and continue to support it.
 
 <article id="remotestorage">
 <header>
-<a href="http://remotestorage.io/"><img src="/images/logos/remotestorage.png" width="80" height="80" alt="" /></a>
+<a href="http://remotestorage.io/"><img src="/wp-content/themes/africahacktrip/images/logos/remotestorage.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://remotestorage.io/">remoteStorage</a>
 </h3>
@@ -179,7 +179,7 @@ An open protocol for per-user storage. Lets you sync your data across devices, w
 
 <article id="task-li">
 <header>
-<a href="http://task.li/"><img src="/images/logos/task.li.png" width="80" height="80" alt="" /></a>
+<a href="http://task.li/"><img src="/wp-content/themes/africahacktrip/images/logos/task.li.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://task.li/">task.li</a>
 </h3>
@@ -191,7 +191,7 @@ A simple, web based app that lets you share tasks via email.
 
 <article id="tosdr">
 <header>
-<a href="http://tosdr.org/"><img src="/images/logos/tosdr.png" width="80" height="80" alt="" /></a>
+<a href="http://tosdr.org/"><img src="/wp-content/themes/africahacktrip/images/logos/tosdr.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://tosdr.org/">Terms of Service; Didn’t Read</a>
 </h3>
@@ -204,7 +204,7 @@ Terms of Service; Didn’t Read aims to fix that.
 
 <article id="upstream">
 <header>
-<a href="http://upstre.am/"><img src="/images/logos/upstream.png" width="80" height="80" alt="" /></a>
+<a href="http://upstre.am/"><img src="/wp-content/themes/africahacktrip/images/logos/upstream.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://upstre.am/">Upstream</a>
 </h3>
@@ -217,7 +217,7 @@ We deliver high quality web apps in short timespans.
 
 <article id="unhosted">
 <header>
-<a href="http://unhosted.org/"><img src="/images/logos/unhosted.png" width="80" height="80" alt="" /></a>
+<a href="http://unhosted.org/"><img src="/wp-content/themes/africahacktrip/images/logos/unhosted.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://unhosted.org/">unhosted web apps</a>
 </h3>
@@ -229,7 +229,7 @@ Also known as "serverless", "client-side", or "static" web apps, unhosted web ap
 
 <article id="webmuses">
 <header>
-<a href="http://webmus.es/"><img src="/images/logos/webmuses.png" width="80" height="80" alt="" /></a>
+<a href="http://webmus.es/"><img src="/wp-content/themes/africahacktrip/images/logos/webmuses.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://webmus.es/">WebMuses</a>
 </h3>
@@ -242,7 +242,7 @@ from coding to design. We organize women-friendly workshops, meetings, presentat
 
 <article id="twestival">
 <header>
-<a href="http://http://twestival.com//"><img src="/images/logos/twestival.png" width="80" height="80" alt="" /></a>
+<a href="http://http://twestival.com//"><img src="/wp-content/themes/africahacktrip/images/logos/twestival.png" width="80" height="80" alt="" /></a>
 <h3>
 <a href="http://twestival.com//">Twestival</a>
 </h3>
@@ -254,7 +254,7 @@ around the world to organize one-of-a-kind offline events in support of a great 
 </article>
 </section>
 
-<section id="The_team" class="box">
+<section id="The_team">
 <h2>Who we are</h2>
 <article id="Gregor_Martynus">
 <header>
@@ -483,7 +483,7 @@ the tech scenes in the country we will be visiting are like.</p>
 
 <article id="Martin_Stadler">
 <header>
-<img src="/images/xmartin.jpg" width="80" height="80" alt="" />
+<img src="/wp-content/themes/africahacktrip/images/xmartin.jpg" width="80" height="80" alt="" />
 <h3>
 Martin Stadler
 <em class="developer">Developer</em>
@@ -734,13 +734,6 @@ Tobias Kräntzer
 </ul>
 </div>
 </article>
-</section>
-<section>
-<h2>Waiting list</h2>
-<p id="Waiting_list">
-Want to participate? We can't promise anything at the moment,
-but please put your name on our <a href="https://github.com/AfricaHackTrip/africahacktrip.github.com/wiki/Waiting-List">waiting list</a>.
-</p>
 </section>
 
 

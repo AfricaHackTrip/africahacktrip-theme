@@ -60,6 +60,7 @@ Version:        0.1.0
   max-width: none;
 }
 .entry-title {
+  margin-top: 20px;
   color: #323232;
 }
 .entry-title a, .entry-title a:link, .entry-title a:visited { 
@@ -144,7 +145,8 @@ a:hover {
 .navbar-inverse .navbar-nav .active a, 
 .navbar-inverse .navbar-nav li.active a:hover, 
 .navbar-inverse .navbar-nav li a:hover {
-
+  background-color: #fbf8ef;
+  color: #323232;
 }
 /* kenya */
 #menu-item-108.current-menu-item a, #menu-item-108 a:hover {
