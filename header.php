@@ -57,7 +57,7 @@
       <div class="container">
         <nav class="navbar-fixed-top navbar-inverse navbar navbar-collapse navbar-responsive-collapse" role="navigation">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="menu-main-container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".menu-main-container">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
