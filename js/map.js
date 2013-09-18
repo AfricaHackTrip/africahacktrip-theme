@@ -46,19 +46,19 @@ window.Hackmap = {
       country: "kenya",
       lat: -1.294903,
       lng: 36.824005,
-      label: 'Nairobi 24/09 - 01/10'
+      label: '<strong>Nairobi</strong> 24/09 - 01/10'
     },
     kampala: {
       country: "uganda",
       lat: 0.312079,
       lng: 32.581276,
-      label: 'Kampala 02/10 - 08/10'
+      label: '<strong>Kampala</strong> 02/10 - 08/10'
     },
     kigali: {
       country: "rwanda",
       lat: -1.952099,
       lng: 30.059570,
-      label: 'Kigali 09/10 - 15/10'
+      label: '<strong>Kigali</strong> 09/10 - 15/10'
     },
     daressalaam: {
       country: "tanzania",
