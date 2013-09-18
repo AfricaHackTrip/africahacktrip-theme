@@ -74,6 +74,7 @@ get_header(); ?>
     height: 400px;
   }
 </style>
+<script src="/wp-content/themes/africahacktrip/js/masonry.min.js"></script>
 <script type="text/javascript">
   $(function() { Hackmap.moveToOverview() });
 </script>
