@@ -375,30 +375,18 @@ h1#tagline {
   line-height: 1.5; }
 
 @media (min-width: 800px) {
-  .intro {
-    width: 50%;
-    position: absolute;
-    top: 110px;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 5px; } }
+}
 @media (max-width: 800px) {
+  #intro {
+    width: 70%;
+  }
   h1#tagline {
-    color: #fff;
-    background: #000;
     font-size: 20px;
     line-height: 1.4em;
     padding: 10px 15px;
     margin-top: -30px;
     margin-bottom: 20px; }
 
-  .intro {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 20px; }
-    .intro p {
-      font-size: 18px;
-      margin-bottom: 10px; }
 
   #teaser iframe {
     margin-bottom: 20px;
@@ -406,7 +394,10 @@ h1#tagline {
     height: 169px; }
   #teaser p {
     font-size: 14px;
-    line-height: 1.6em; } }
+    line-height: 1.6em; }
+}
+
+
 #teaser {
   font-size: 16px;
   line-height: 1.5;

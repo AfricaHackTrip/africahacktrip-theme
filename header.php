@@ -64,7 +64,7 @@
             </button>
             <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">AfricaHackTrip</a>
           </div>
-          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'collapse navbar-collapse', 'menu_class' => 'nav navbar-nav pull-right' ) ); ?>
+          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'menu-main-container collapse navbar-collapse', 'menu_class' => 'nav navbar-nav pull-right' ) ); ?>
         </nav>
       </div>
     </header>
