@@ -52,7 +52,7 @@ window.Hackmap = {
       country: "uganda",
       lat: 0.312079,
       lng: 32.581276,
-      label: '<strong><a href="/category/locations/uganda/>Kampala</a></strong> 02/10 - 08/10'
+      label: '<strong><a href="/category/locations/uganda/">Kampala</a></strong> 02/10 - 08/10'
     },
     kigali: {
       country: "rwanda",
@@ -64,7 +64,7 @@ window.Hackmap = {
       country: "tanzania",
       lat: -6.826216,
       lng: 39.269149,
-      label: '<strong><a href="/category/locations/tanzania/>Dar es Salaam</a></strong> 16/10 - 23/10'
+      label: '<strong><a href="/category/locations/tanzania/">Dar es Salaam</a></strong> 16/10 - 23/10'
     }
   },
 
