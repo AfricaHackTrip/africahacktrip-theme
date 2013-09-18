@@ -447,6 +447,8 @@ h1#tagline {
   clear: both;
   margin-top: 25px;
   width: 952px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tile {
