@@ -753,7 +753,7 @@ Tobias Kräntzer
 <h3>
 Emilia Maj
 <em class="designer">Designer</em>
-<small>Designt</small>
+<small>Design</small>
 </h3>
 <dl>
 <dt>Connect:</dt>
