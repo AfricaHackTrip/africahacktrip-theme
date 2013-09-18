@@ -52,18 +52,18 @@
 
 <body <?php body_class(); ?>>
   <div id="page" class="hfeed">
-    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+    <header class="">
       <div class="container">
-        <nav class="collapse navbar-collapse navbar-responsive-collapse" role="navigation">
+        <nav class="navbar-fixed-top navbar-inverse navbar navbar-collapse navbar-responsive-collapse" role="navigation">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="menu-main-container">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">AfricaHackTrip</a>
           </div>
-          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav navbar-nav pull-right' ) ); ?>
+          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'collapse navbar-collapse', 'menu_class' => 'nav navbar-nav pull-right' ) ); ?>
         </nav>
       </div>
     </header>
