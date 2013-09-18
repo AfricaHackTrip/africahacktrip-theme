@@ -33,6 +33,7 @@
   <!--[if lte IE 8]>
     <link rel="stylesheet" href="/wp-content/themes/africahacktrip/leaflet.ie.css" />
   <![endif]-->
+  <script src="/wp-content/themes/africahacktrip/js/bootstrap.min.js"></script>
   <script src="/wp-content/themes/africahacktrip/js/leaflet-src.js"></script>
   <script src="/wp-content/themes/africahacktrip/js/leaflet.label.js"></script>
   <script src="/wp-content/themes/africahacktrip/js/map.js"></script>
