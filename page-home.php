@@ -43,7 +43,7 @@ get_header(); ?>
 <?php endwhile; ?>
 
 <h1 class="home-title">Get excited...</h1>
-<div class="grid">
+<div class="grid" id="get-excited">
 <?php
   $args = array('post_type' => 'tile', 'posts_per_page' => 30 );
   $loop = new WP_Query( $args );
@@ -76,6 +76,11 @@ get_header(); ?>
 </style>
 <script src="/wp-content/themes/africahacktrip/js/masonry.min.js"></script>
 <script type="text/javascript">
-  $(function() { Hackmap.moveToOverview() });
+  $(function() { 
+    msnry = new Masonry( $("#get-excited").get(0), {
+      itemSelector: '.tile'
+    });  
+    Hackmap.moveToOverview() 
+  });
 </script>
 <?php get_footer(); ?>
