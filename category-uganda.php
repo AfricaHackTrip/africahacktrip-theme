@@ -54,7 +54,7 @@ get_header(); ?>
     <h2 class="flag">Uganda</h2>
     <section class="country-info">
       <p>
-        Uganda is a young nation, about 75% of its 35 million people are youth - quite the opposite of most European countries and a rich source of creativity and entrepreneurship in an open and liberal market. In Kampala, government and private sector join hands in fostering ICT. The sector is growing rapidly and so are incubation centers like Outbox and Hive Colab, where young people come up with practical solutions for local problems. We can't wait to meet some serious hackers in Kampala!
+        Uganda is a young nation, about 75% of its 35 million people are youth - quite the opposite of most European countries and a rich source of creativity and entrepreneurship in an open and liberal market. In Kampala, government and private sector join hands in fostering ICT. The sector is growing rapidly and so are incubation centers like <a href="http://www.outbox.co.ug/">Outbox</a> and <a href="http://hivecolab.org/">Hive Colab</a>, where young people come up with practical solutions for local problems. We can't wait to meet some serious hackers in Kampala!
       </p>
     </section>
 

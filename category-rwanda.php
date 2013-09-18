@@ -53,6 +53,12 @@ get_header(); ?>
     <h2 class="flag">Rwanda</h2>
     <section class="country-info">
       <p>
+        Rwanda continues to be one of the fastest growing African countries in Information and Communication Technology (ICT).
+        With the creation of the Ministry of youth and ICT the Government of Rwanda makes ICT key tool for its vision for a knowledege based society. 
+        
+      </p>
+      <p>
+        We're super excited to meet the communities at <a href="http://klab.rw/">kLab</a> and <a href="http://theofficerw.com/">The Office</a>.
       </p>
     </section>
 

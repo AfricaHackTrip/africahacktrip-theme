@@ -265,7 +265,7 @@ around the world to organize one-of-a-kind offline events in support of a great 
 </article>
 </section>
 
-<section id="The_team">
+<section id="The_team" style="margin-top: 30px">
 <h2>Who we are</h2>
 <article id="Gregor_Martynus">
 <header>
