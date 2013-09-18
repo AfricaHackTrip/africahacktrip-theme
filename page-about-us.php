@@ -745,6 +745,36 @@ Tobias Kräntzer
 </ul>
 </div>
 </article>
+
+
+<article id="Emi_Maj">
+<header>
+<img src="/wp-content/themes/africahacktrip/images/emi_80.jpg" width="80" height="80" alt="" />
+<h3>
+Emilia Maj
+<em class="designer">Designer</em>
+<small>Designt</small>
+</h3>
+<dl>
+<dt>Connect:</dt>
+<dd>
+<a href="https://twitter.com/EmiliaMaj">twitter</a>
+</dd>
+<dd>
+<a href="https://github.com/EmiMaj">github</a>
+</dd>
+</dl>
+<a href="#Emi_Maj" class="toggle more">+</a>
+<a href="#" class="toggle less">×</a>
+</header>
+<div>
+
+
+
+</div>
+</article>
+
+
 </section>
 
 
