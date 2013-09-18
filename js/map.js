@@ -46,25 +46,25 @@ window.Hackmap = {
       country: "kenya",
       lat: -1.294903,
       lng: 36.824005,
-      label: '09/24-10/01'
+      label: 'Nairobi 09/24 - 10/01'
     },
     kampala: {
       country: "uganda",
       lat: 0.312079,
       lng: 32.581276,
-      label: '10/02-10/08'
+      label: 'Kampala 10/02 - 10/08'
     },
     kigali: {
       country: "rwanda",
       lat: -1.952099,
       lng: 30.059570,
-      label: '10/09-10/15'
+      label: 'Kigali 10/09 - 10/15'
     },
     daressalaam: {
       country: "tanzania",
       lat: -6.826216,
       lng: 39.269149,
-      label: '10/16-10/23'
+      label: 'Dar es Salaam 10/16 - 10/23'
     }
   },
 
@@ -103,7 +103,7 @@ window.Hackmap = {
     if(this.options.mobile) { return; }
 
     var city = this.cities[cityName];
-    this.m.setView([city.lat, city.lng], 7, {animate: true});
+    this.m.setView([city.lat, city.lng], 9, {animate: true});
   },
 
   moveToOverview: function() {
