@@ -245,7 +245,7 @@ footer#page-footer {
   background-color: #fbf8ef; }
 
 .leaflet-label {
-  background: #f06361;
+  background-color: #f06361;
   background-clip: padding-box;
   color: #000;
   display: block;
@@ -261,6 +261,19 @@ footer#page-footer {
   font-size: 14px;
   margin-left: -8px; }
 
+.leaflet-label.kenya {
+  background-color: #f06361;
+
+}
+.leaflet-label.uganda {
+  background-color: #e9c04b;
+}
+.leaflet-label.rwanda {
+  background-color: #18afcc;
+}
+.leaflet-label.tanzania {
+  background-color: #54bc83;
+}
 .leaflet-label.leaflet-clickable {
   cursor: pointer; }
 

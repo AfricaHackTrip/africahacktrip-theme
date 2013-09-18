@@ -117,7 +117,7 @@ window.Hackmap = {
 
     var city = this.cities[cityName];
     L.marker([city.lat, city.lng])
-      .bindLabel(city.label, { noHide: true })
+      .bindLabel(city.label, { noHide: true, className: city.country })
       .addTo(this.m)
       .showLabel();
   },
