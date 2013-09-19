@@ -70,8 +70,10 @@ get_header(); ?>
 
 
 <style type="text/css">
-  .leaflet-container {
-    height: 400px;
+  @media (min-width: 766px) {
+    .leaflet-container {
+      height: 400px;
+    }
   }
 </style>
 <script src="/wp-content/themes/africahacktrip/js/masonry.min.js"></script>
@@ -80,7 +82,9 @@ get_header(); ?>
     msnry = new Masonry( $("#get-excited").get(0), {
       itemSelector: '.tile'
     });  
-    Hackmap.moveToOverview() 
+    if(!window.SMALL_SCREEN) {
+      Hackmap.moveToOverview();
+    }
   });
 </script>
 <?php get_footer(); ?>

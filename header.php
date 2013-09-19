@@ -40,13 +40,15 @@
   <script src="/wp-content/themes/africahacktrip/js/map.js"></script>
 <script type="text/javascript">
     $(function() {
-    Hackmap.initializeMap();
-    if(window.mapCity && window.mapCity != "") {
-      Hackmap.moveToCountry(window.mapCity);
-    }
-    if(window.mapMarkers && window.mapMarkers != "") {
-      Hackmap.addMarkers(window.mapMarkers);
-    }
+      window.SMALL_SCREEN = $(document).innerWidth() < 766;
+     
+      Hackmap.initializeMap();
+      if(window.mapCity && window.mapCity != "") {
+        Hackmap.moveToCountry(window.mapCity);
+      }
+      if(window.mapMarkers && window.mapMarkers != "") {
+        Hackmap.addMarkers(window.mapMarkers);
+      }
     });
   </script>
 	<?php wp_head(); ?>
@@ -65,7 +67,7 @@
           </button>
           <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">AfricaHackTrip</a>
         </div>
-        <nav class="collapse navbar-collapse aht-navbar" role="navigation" style="height:auto">
+        <nav class="collapse navbar-collapse aht-navbar" role="navigation">
           <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav pull-right' ) ); ?>
         </nav>
       </div>
