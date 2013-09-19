@@ -70,7 +70,7 @@ get_header(); ?>
 
 
 <style type="text/css">
-  @media (min-width: 766px) {
+  @media (min-width: 770px) {
     .leaflet-container {
       height: 400px;
     }

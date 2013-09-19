@@ -40,7 +40,7 @@
   <script src="/wp-content/themes/africahacktrip/js/map.js"></script>
 <script type="text/javascript">
     $(function() {
-      window.SMALL_SCREEN = $(document).innerWidth() < 766;
+      window.SMALL_SCREEN = $(document).innerWidth() < 770;
      
       Hackmap.initializeMap();
       if(window.mapCity && window.mapCity != "") {
