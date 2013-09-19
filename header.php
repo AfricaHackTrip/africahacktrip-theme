@@ -26,7 +26,8 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<!--[if lt IE 9]>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
+  <script src="/wp-content/themes/africahacktrip/js/html5shiv-printshiv.js"></script>
+	<script src="/wp-content/themes/africahacktrip/js/html5shiv.js"></script>
   <![endif]-->
 
   <link rel="stylesheet" href="/wp-content/themes/africahacktrip/leaflet.css" />
