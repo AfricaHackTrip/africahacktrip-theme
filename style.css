@@ -28,6 +28,11 @@ Version:        0.1.0
     padding: 8px 10px;
     }
 }
+@media (min-width: 801px) {
+  .navbar-nav > li > a {
+     padding: 25px 10px; 
+   }
+}
 .navbar-collapse {
   max-height:none;
 }
@@ -201,8 +206,6 @@ a:hover {
   color: #f1f1f1; }
 
 
-.navbar-nav > li > a {
-   padding: 25px 10px; }
 .navbar-brand {
   padding: 0;
   margin: 5px 25px 0 10px;
