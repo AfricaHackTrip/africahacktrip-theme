@@ -54,18 +54,18 @@
 
 <body <?php body_class(); ?>>
   <div id="page" class="hfeed">
-    <header class="">
+    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
       <div class="container">
-        <nav class="navbar-fixed-top navbar-inverse navbar navbar-collapse navbar-responsive-collapse" role="navigation">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".menu-main-container">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">AfricaHackTrip</a>
-          </div>
-          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'menu-main-container collapse navbar-collapse', 'menu_class' => 'nav navbar-nav pull-right' ) ); ?>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".aht-navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">AfricaHackTrip</a>
+        </div>
+        <nav class="navbar-collapse aht-navbar" role="navigation" style="height:auto">
+          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav pull-right' ) ); ?>
         </nav>
       </div>
     </header>
