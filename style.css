@@ -182,20 +182,8 @@ a:hover {
   color: #f1f1f1; }
 
 
-@media (min-width: 800px) {
-  .navbar-nav > li > a {
-    padding: 25px 10px; } }
-@media (max-width: 800px) {
-  ul.nav { width: 100% }
-  ul.nav li { 
-    width: 100%;
-    text-align: center;
-  }
-  ul.nav a { width: 100% }
-  .navbar-nav > li > a {
-    padding: 8px 10px;
-    }
-  }
+.navbar-nav > li > a {
+   padding: 25px 10px; }
 .navbar-brand {
   padding: 0;
   margin: 5px 25px 0 10px;
@@ -342,22 +330,6 @@ main .lanyrd-schedule-embed span.opener {
   font-size: 14px;
   float: right; }
 
-@media (max-width: 768px) {
-  body {
-    padding-top: 50px; }
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #333; }
-
-  .navbar-brand {
-    margin-top: 5px;
-    margin-left: 0;
-    height: 35px; }
-
-  #bigfatmap {
-    margin-bottom: 30px; } }
 #intro {
   position: absolute;
   top: 140px;
@@ -373,29 +345,6 @@ h1#tagline {
 #intro p {
   font-size: 18px;
   line-height: 1.5; }
-
-@media (min-width: 800px) {
-}
-@media (max-width: 800px) {
-  #intro {
-    width: 70%;
-  }
-  h1#tagline {
-    font-size: 20px;
-    line-height: 1.4em;
-    padding: 10px 15px;
-    margin-top: -30px;
-    margin-bottom: 20px; }
-
-
-  #teaser iframe {
-    margin-bottom: 20px;
-    width: 300px;
-    height: 169px; }
-  #teaser p {
-    font-size: 14px;
-    line-height: 1.6em; }
-}
 
 
 #teaser {
