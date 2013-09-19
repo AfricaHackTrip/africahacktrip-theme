@@ -16,7 +16,7 @@ Version:        0.1.0
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 765px) {
 
   ul.nav { width: 100% }
   ul.nav li { 
@@ -28,10 +28,16 @@ Version:        0.1.0
     padding: 8px 10px;
     }
 }
-@media (min-width: 801px) {
+@media (min-width: 766px) {
   .navbar-nav > li > a {
      padding: 25px 10px; 
    }
+  #intro {
+    position: absolute;
+    top: 140px;
+    width: 45%;
+    padding: 20px 0px 0px 0px; 
+  }
 }
 .navbar-collapse {
   max-height:none;
@@ -352,11 +358,6 @@ main .lanyrd-schedule-embed span.opener {
   font-size: 14px;
   float: right; }
 
-#intro {
-  position: absolute;
-  top: 140px;
-  width: 45%;
-  padding: 20px 0px 0px 0px; }
 
 h1#tagline {
   font-size: 23px;
