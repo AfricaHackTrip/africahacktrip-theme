@@ -188,6 +188,19 @@ An open protocol for per-user storage. Lets you sync your data across devices, w
 </header>
 </article>
 
+<article id="railslove">
+<header>
+<a href="http://railslove.com/"><img src="/wp-content/themes/africahacktrip/images/logos/railslove.png" width="80" height="80" alt="" /></a>
+<h3>
+<a href="http://railslove.com/">Railslove</a>
+</h3>
+<p>
+Railslove is a software consultancy from Cologne Germany. Railslove is building web applications and is kinda good at it.
+</p>
+</header>
+</article>
+
+
 <article id="task-li">
 <header>
 <a href="http://task.li/"><img src="/wp-content/themes/africahacktrip/images/logos/task.li.png" width="80" height="80" alt="" /></a>
