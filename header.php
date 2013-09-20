@@ -24,6 +24,7 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+  <link rel="shortcut icon" type="image/x-icon" href="/wp-content/themes/africahacktrip/images/favicon.ico">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<!--[if lt IE 9]>
   <script src="/wp-content/themes/africahacktrip/js/html5shiv-printshiv.js"></script>
