@@ -791,8 +791,4 @@ Emilia Maj
 </section>
 
 
-
-<script type="text/javascript">
-  $(function() { Hackmap.moveToOverview() });
-</script>
 <?php get_footer(); ?>

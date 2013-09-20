@@ -64,6 +64,10 @@
   /*background: #bada33;*/
   background: rgba(127, 224, 0, 0.5); }
 
+#The_team h3 em.publisher {
+  /*background: #bada33;*/
+  background: rgba(128, 0, 128, 0.5); }
+
 #The_team h3 em.designer {
   /*background: #dec0de;*/
   background: rgba(224, 0, 15, 0.4); }
