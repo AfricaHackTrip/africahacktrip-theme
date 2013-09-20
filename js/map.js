@@ -84,7 +84,7 @@ window.Hackmap = {
     });
     self.m.addControl( L.control.zoom({position: 'bottomright'}) );
     self.m.attributionControl.setPrefix('');
-
+    self.m.on("click", function(e) { if(window.console && window.console.log) { console.log(e.latlng); } });
     L.tileLayer('https://{s}.tiles.mapbox.com/v3/aht.map-bo38swvz/{z}/{x}/{y}.png', {
       attribution: '',
       maxZoom: 17
