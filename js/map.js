@@ -118,8 +118,7 @@ window.Hackmap = {
 
   addMarkers: function(markers) {
     $.each(markers, function(i, marker) {
-      var city = Hackmap.cities[marker.city];
-      var className = marker.className || city.country;
+      var className = marker.className || marker.country;
       L.marker([marker.lat, marker.lng])
         .bindLabel(marker.label, { noHide: true, className: className})
         .addTo(Hackmap.m)
