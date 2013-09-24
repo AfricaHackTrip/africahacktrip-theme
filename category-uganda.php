@@ -79,6 +79,13 @@ get_header(); ?>
 
 			<?php twentythirteen_paging_nav(); ?>
 
+      <?php if(get_post_custom_values("markers")) : ?>
+        <script type="text/javascript">
+          $(function() {
+            Hackmap.addMakers(<?php get_post_custom_values("markers")[0] ; ?>);
+          });
+        </script>
+      <?php endif ?>
 		<?php endif; ?>
 
 		</div><!-- #content -->
