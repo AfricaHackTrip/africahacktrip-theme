@@ -14,7 +14,10 @@ get_header(); ?>
 <div class="row rwanda">
   <main class="col-md-9">
     <section class="events">
-      <h2>Events we organize</h2>
+      <h2>
+        Events we organize
+        <span class="event-details-link"><a href="http://lanyrd.com/2013/aht13-rwanda/">details on Lanyrd</a></span>
+      </h2>
 
       <div class="lanyrd-target-schedule">
         <a href="https://lanyrd.com/2013/aht13-rwanda/schedule/" class="lanyrd-schedule" data-lanyrd-locations data-lanyrd-nostyles data-lanyrd nolink>Schedule on Lanyrd</a>

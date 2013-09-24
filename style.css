@@ -389,6 +389,12 @@ h1#tagline {
   margin: 0 5px;
   font-size: 0.7em; }
 
+
+.event-details-link {
+  font-size: 14px;
+  float: right;
+}
+
 .event {
   border-bottom: 1px solid #d1d1d1; }
   .event h4, .event h4 a {
