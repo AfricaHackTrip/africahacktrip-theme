@@ -95,10 +95,6 @@ window.Hackmap = {
     });
   },
 
-  addMarkers: function(markers) {
-
-  },
-
   moveToCity: function(cityName) {
     if(this.options.mobile) { return; }
 
@@ -113,13 +109,22 @@ window.Hackmap = {
   },
 
   addCountryLabel: function(cityName) {
-    if(this.options.mobile) { return; }
-
     var city = this.cities[cityName];
     L.marker([city.lat, city.lng])
       .bindLabel(city.label, { noHide: true, className: city.country })
       .addTo(this.m)
       .showLabel();
+  },
+
+  addMarkers: function(markers) {
+    $.each(markers, function(i, marker) {
+      var city = Hackmap.cities[marker.city];
+      var className = marker.className || city.country;
+      L.marker([marker.lat, marker.lng])
+        .bindLabel(marker.label, { noHide: true, className: className})
+        .addTo(Hackmap.m)
+        .showLabel();
+    });
   },
 
   setHeight: function(value) {
