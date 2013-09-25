@@ -99,7 +99,7 @@ window.Hackmap = {
     if(this.options.mobile) { return; }
 
     var city = this.cities[cityName];
-    this.m.setView([city.lat, city.lng], 9, {animate: true});
+    this.m.setView([city.lat, city.lng], 12, {animate: true});
   },
 
   moveToOverview: function() {
