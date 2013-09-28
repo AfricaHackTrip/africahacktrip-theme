@@ -22,7 +22,7 @@ get_header(); ?>
     The trip has started on September 23, and it's been an amazing experience so far! African hackers: Mnavuita &lt;3
     	</p>
     <p>
-    Check out our <a href="https://africahacktrip.org/blog/">Blog</a> or <a href="africahacktrip.tumblr.com">Tumblr</a> and see what's happening on <a href="https://twitter.com/search?q=%23aht13&src=typd&f=realtime">Twitter</a>! <br />
+    Check out our <a href="https://africahacktrip.org/blog/">Blog</a> or <a href="http://africahacktrip.tumblr.com">Tumblr</a> and see what's happening on <a href="https://twitter.com/search?q=%23aht13&src=typd&f=realtime">Twitter</a>! <br />
 	</p>
 </div>
 
