@@ -19,12 +19,11 @@ get_header(); ?>
     We are a group of developers & designers from Europe, curious about the emerging African tech hubs.
   </h1>
   <p>
-    We decided to explore the African tech community ourselves and share our impressions on the web and with a video documentary.<br />
+    The trip has started on September 23, and it's been an amazing experience so far! African hackers: Mnavuita &lt;3
+    	</p>
+    <p>
+    Check out our <a href="https://africahacktrip.org/blog/">Blog</a> or <a href="africahacktrip.tumblr.com">Tumblog</a> and see what's happening on <a href="https://twitter.com/search?q=%23aht13&src=typd&f=realtime">Twitter</a>! <br />
 	</p>
-	<p>
-		We want to get everyone in the international tech scene as excited about African hackers as we are.
-    The journey begins in September 2013.
-  </p>
 </div>
 
 <?php /* The loop */ ?>
