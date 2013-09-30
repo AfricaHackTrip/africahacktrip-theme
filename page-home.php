@@ -19,7 +19,7 @@ get_header(); ?>
     We are a group of developers & designers from Europe, curious about the emerging African tech hubs.
   </h1>
   <p>
-    The trip has started on September 23, and it's been an amazing experience so far! African hackers: Mnavuita &lt;3
+    The trip has started on September 23, and it's been an amazing experience so far! African hackers: Munavutia &lt;3
     	</p>
     <p>
     Check out our <a href="https://africahacktrip.org/blog/">Blog</a> or <a href="http://africahacktrip.tumblr.com">Tumblr</a> and see what's happening on <a href="https://twitter.com/search?q=%23aht13&src=typd&f=realtime">Twitter</a>! <br />
