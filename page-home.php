@@ -19,10 +19,8 @@ get_header(); ?>
     We are a group of developers & designers from Europe, curious about the emerging African tech hubs.
   </h1>
   <p>
-    From September 23rd to November 1st we have been exploring the East African tech szene. <br />
-    Our goal was to document our experience and to kick off a <a href="http://www.eurohacktrip.org/">continuous exchange</a> between the continents. 
-  </p>
-    <p>
+    From September 23rd to November 1st we have been exploring the East African tech szene.
+    Our goal was to document our experience and to kick off a <a href="http://www.eurohacktrip.org/">continuous exchange</a> between the continents. <br>
     Check out our <a href="https://africahacktrip.org/blog/">Blog</a> or <a href="http://africahacktrip.tumblr.com">Tumblr</a>.
 	</p>
 </div>
