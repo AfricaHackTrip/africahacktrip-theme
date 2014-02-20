@@ -21,7 +21,7 @@
         <h3>Contact/follow</h3>
         <ul>
           <li class="twitter"><a href="https://twitter.com/AfricaHackTrip">@AfricaHackTrip</a></li>
-          <li class="tumblr"><a href="https://africahacktrip.tumblr.com">AfricaHackTrip.tumblr.com</a></li>
+          <li class="tumblr"><a href="http://africahacktrip.tumblr.com">AfricaHackTrip.tumblr.com</a></li>
           <li class="facebook"><a href="https://facebook.com/Africahacktrip2013">facebook.com/AfricaHackTrip2013</a></li>
           <li class="email"><a href="mailto:hello@AfricaHackTrip.org">hello@AfricaHackTrip.org</a></li>
         </ul>
